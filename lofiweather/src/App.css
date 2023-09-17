@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Rajdhani:wght@300;400;500;600&display=swap');
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-family: 'Rajdhani', sans-serif;
+  background-image: url('../assets/winter2.jpg');
+  background-size: cover;
+  /* Adjust as needed */
+  background-repeat: no-repeat;
+  /* Prevent repetition */
+}
+
+.app {
+  width: "100%";
+  height: "100%";
+  padding: 25px;
+  background-size: cover;
+  /* Adjust as needed */
+  background-repeat: no-repeat;
+  /* Prevent repetition */
+}
+
+.title {
+  font-size: 25px;
+  font-weight: 600;
+  color: #fff;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+.weather-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 600px;
+  height: 300px;
+  padding: 25px;
+  background-size: cover;
+  /* Adjust as needed */
+  background-repeat: no-repeat;
+  /* Prevent repetition */
+  transition: background-image 0.5s ease;
+}
+
+/* Card content */
+.card-content {
+  color: #fff;
+  padding: 10px;
+}
+
+.app.winter,
+.card.winter {
+  background-image: url("../assets/winter2.jpg");
+  border-radius: 30px;
+}
+
+.card.winternight {
+  background-image: url("../assets//winternight.jpg");
+  border-radius: 30px;
+
+}
+
+.card.rainynight {
+  background-image: url("../assets/rainynight.jpg");
+  border-radius: 30px;
+}
+
+.card.clear {
+  background-image: url("../assets/clear.jpg");
+  border-radius: 30px;
+}
+
+.card.mist {
+  background-image: url("../assets/mist.jpg");
+  border-radius: 30px;
+}
+
+.card.default {
+  background-image: url("../assets/default.jpg");
+  border-radius: 30px;
+}
